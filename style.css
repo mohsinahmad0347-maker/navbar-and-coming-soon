@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+   
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+}
+header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color:#F7F7F7;
+   justify-content: space-between;
+   border-radius: 20px;
+   padding: 10px;
+  
+
+
+
+}
+nav{
+    display: flex;
+    gap: 30px;
+
+
+}
+a:hover{
+    scale: 1.1;
+    height:5px; ;
+
+
+}
+a:active{
+    scale: 0.9;
+    color: antiquewhite;
+
+}
+#logo:hover{
+scale: 1.1;
+}
+.oo{
+    height: 30px;
+    margin-top:5px ;
+}
+
+svg {
+    font-family: "UnifrakturMaguntia", sans-serif;
+    width: 100vw;
+    height: 100%;
+}
+
+svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #A01D04;
+    font-size: 100px;
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(242, 238, 237, 0);
+        stroke: rgb(247, 242, 241);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+    70% {
+        fill: rgba(139, 136, 136, 0);
+        stroke: rgb(228, 222, 220);
+    }
+    80% {
+        fill: rgba(237, 229, 228, 0);
+        stroke: rgb(244, 239, 237);
+        stroke-width: 3;
+    }
+    100% {
+        fill: rgb(234, 231, 231);
+        stroke: rgba(160,29,4,0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+
+.wrapper {
+   background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+   
+}
